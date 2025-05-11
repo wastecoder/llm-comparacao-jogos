@@ -1,0 +1,103 @@
+body {
+    font-family: 'Varela Round', Arial, sans-serif;
+    background-color: #181818;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #232323;
+    padding: 32px 40px 32px 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 32px #000a;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FFD700;
+    letter-spacing: 1px;
+    font-family: 'Varela Round', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+#game-board, .game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 10px;
+    background: #232323;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #333a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #232323;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s, background 0.3s, color 0.3s;
+    box-shadow: 0 2px 8px #0004;
+    user-select: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.card .card-content {
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size: 2.2rem;
+}
+
+.card.flipped .card-content,
+.card.matched .card-content {
+    opacity: 1;
+}
+
+.card.flipped {
+    background-color: #fff;
+    color: #4CAF50;
+    transform: rotateY(180deg);
+}
+
+.card.matched {
+    background-color: #FFD700;
+    color: #232323;
+    pointer-events: none;
+}
+
+.card:active {
+    transform: scale(0.95);
+}
+
+#restartButton {
+    margin-top: 24px;
+    width: 100%;
+    padding: 12px 0;
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#restartButton:hover {
+    background: #388e3c;
+}
