@@ -52,3 +52,16 @@ Os modelos testados foram:
 - **Economia de tempo:** Ideal para protótipos rápidos, estudos, testes de lógica ou geração de componentes específicos.
 
 
+## :camera: Resultados Visuais
+
+### Claude 3.5 – Jogo da Cobrinha
+![Jogo da cobrinha](Screenshots/1.-jogo-da-cobrinha.png)
+
+### o3-mini – Jogo de Tempo de Reação
+![Jogo de tempo de reação](Screenshots/3.-teste-de-tempo-de-reação.png)
+
+### GPT-4.1 – Jogo da Memória
+![Jogo da memória](Screenshots/2.-jogo-da-memória.png)
+
+### GPT-4.1 – API de Consulta de CEP
+![API de CEP](Screenshots/4.-api-cep.png)
