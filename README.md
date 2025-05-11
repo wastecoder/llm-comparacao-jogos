@@ -58,7 +58,7 @@ Os modelos testados foram:
 ![Jogo da cobrinha](Screenshots/1.-jogo-da-cobrinha.png)
 
 ### o3-mini – Jogo de Tempo de Reação
-![Jogo de tempo de reação](Screenshots/3.-teste-de-tempo-de-reação.png)
+![Jogo de tempo de reação](Screenshots/3.-teste-de-tempo-de-reacao.png)
 
 ### GPT-4.1 – Jogo da Memória
 ![Jogo da memória](Screenshots/2.-jogo-da-memória.png)
